@@ -66,68 +66,24 @@
             <a href="#specs" class="btn btn-ghost">Подробнее</a>
           </div>
         </div>
-        <div class="hero-image" role="img" aria-label="Škoda Octavia A7 RS">
-          <div class="hero-card">
-            <svg viewBox="0 0 600 320" xmlns="http://www.w3.org/2000/svg" class="car-svg" aria-hidden="true">
-              <defs>
-                <linearGradient id="bodyGrad" x1="0" y1="0" x2="0" y2="1">
-                  <stop offset="0%" stop-color="#5fbf3f" />
-                  <stop offset="100%" stop-color="#2f7a1f" />
-                </linearGradient>
-                <linearGradient id="glassGrad" x1="0" y1="0" x2="0" y2="1">
-                  <stop offset="0%" stop-color="#9bb3c4" />
-                  <stop offset="100%" stop-color="#1f2a35" />
-                </linearGradient>
-                <radialGradient id="wheelGrad" cx="50%" cy="50%" r="50%">
-                  <stop offset="0%" stop-color="#3a3a3a" />
-                  <stop offset="80%" stop-color="#0c0c0c" />
-                </radialGradient>
-                <linearGradient id="shadowGrad" x1="0" y1="0" x2="0" y2="1">
-                  <stop offset="0%" stop-color="rgba(0,0,0,0.45)" />
-                  <stop offset="100%" stop-color="rgba(0,0,0,0)" />
-                </linearGradient>
-              </defs>
-              <!-- shadow -->
-              <ellipse cx="300" cy="285" rx="240" ry="14" fill="url(#shadowGrad)" />
-              <!-- body -->
-              <path d="M60,230 C60,200 90,185 120,180 L180,150 C210,135 240,128 285,128 L380,128 C420,128 450,140 480,160 L530,180 C555,185 570,200 570,225 L570,245 L60,245 Z"
-                fill="url(#bodyGrad)" />
-              <!-- roof curve highlight -->
-              <path d="M180,150 C210,135 240,128 285,128 L380,128 C420,128 450,140 480,160"
-                fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="2" />
-              <!-- windows -->
-              <path d="M205,150 C230,138 260,134 285,134 L370,134 C400,134 425,144 445,158 L420,178 L210,178 Z"
-                fill="url(#glassGrad)" opacity="0.85" />
-              <path d="M310,140 L310,176" stroke="#1d2a35" stroke-width="2" />
-              <!-- doors -->
-              <path d="M230,180 L230,235" stroke="rgba(0,0,0,0.35)" stroke-width="1.5" />
-              <path d="M340,180 L340,235" stroke="rgba(0,0,0,0.35)" stroke-width="1.5" />
-              <!-- side accent -->
-              <path d="M80,225 L560,225" stroke="rgba(255,255,255,0.15)" stroke-width="1" />
-              <!-- headlight -->
-              <path d="M540,205 L568,210 L568,222 L540,222 Z" fill="#fff7c2" opacity="0.9" />
-              <!-- taillight -->
-              <path d="M62,205 L92,205 L92,222 L62,222 Z" fill="#c81f1f" opacity="0.9" />
-              <!-- wheels -->
-              <circle cx="155" cy="245" r="36" fill="#0c0c0c" />
-              <circle cx="155" cy="245" r="26" fill="url(#wheelGrad)" />
-              <circle cx="155" cy="245" r="6" fill="#888" />
-              <circle cx="455" cy="245" r="36" fill="#0c0c0c" />
-              <circle cx="455" cy="245" r="26" fill="url(#wheelGrad)" />
-              <circle cx="455" cy="245" r="6" fill="#888" />
-              <!-- RS badge -->
-              <g transform="translate(498,200)">
-                <rect width="34" height="16" rx="2" fill="#000" />
-                <text x="17" y="12" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" font-weight="800" fill="#5fbf3f">RS</text>
-              </g>
-            </svg>
+        <div class="hero-image">
+          <figure class="hero-card">
+            <img
+              src="images/hero-front.jpg"
+              alt="Škoda Octavia A7 RS, вид спереди"
+              class="hero-photo"
+              loading="eager"
+              decoding="async"
+              width="1600"
+              height="972"
+            />
             <div class="hero-card-tags">
               <span class="tag">2.0 TSI</span>
               <span class="tag">DSG-6</span>
               <span class="tag">230 л.с.</span>
               <span class="tag tag-accent">RS</span>
             </div>
-          </div>
+          </figure>
         </div>
       </div>
     </section>
@@ -249,28 +205,28 @@
         <header class="section-head">
           <span class="eyebrow">Галерея</span>
           <h2>Состояние — как новый</h2>
-          <p>Все фото сделаны лично продавцом. Никаких сюрпризов на осмотре.</p>
+          <p>Реальные фото модели Škoda Octavia A7 RS — для общего представления о силуэте, салоне и фирменных деталях.</p>
         </header>
         <div class="gallery-grid">
           <figure class="gallery-item gallery-item--lg">
-            <div class="gallery-photo gallery-photo--front" aria-label="Вид спереди"></div>
-            <figcaption>Передняя оптика и фирменная решётка RS</figcaption>
+            <img src="images/hero-front.jpg" alt="Передний бампер Škoda Octavia A7 RS" loading="lazy" decoding="async" />
+            <figcaption>Передний бампер и решётка vRS</figcaption>
           </figure>
           <figure class="gallery-item">
-            <div class="gallery-photo gallery-photo--side" aria-label="Профиль"></div>
-            <figcaption>Профиль с дисками 18″</figcaption>
+            <img src="images/side.jpg" alt="Боковой профиль Škoda Octavia A7 RS" loading="lazy" decoding="async" />
+            <figcaption>Силуэт лифтбэка и лёгкие диски</figcaption>
           </figure>
           <figure class="gallery-item">
-            <div class="gallery-photo gallery-photo--rear" aria-label="Вид сзади"></div>
-            <figcaption>Сдвоенный выхлоп</figcaption>
+            <img src="images/rear.jpg" alt="Корма Škoda Octavia A7 RS со сдвоенным выхлопом" loading="lazy" decoding="async" />
+            <figcaption>Сдвоенный выхлоп и спойлер RS</figcaption>
           </figure>
           <figure class="gallery-item">
-            <div class="gallery-photo gallery-photo--interior" aria-label="Салон"></div>
-            <figcaption>Спортивный салон в коже Alcantara</figcaption>
+            <img src="images/interior.jpg" alt="Салон Škoda Octavia A7 RS со спортивным рулём" loading="lazy" decoding="async" />
+            <figcaption>Спортивный руль и мультимедиа</figcaption>
           </figure>
           <figure class="gallery-item">
-            <div class="gallery-photo gallery-photo--engine" aria-label="Подкапотное"></div>
-            <figcaption>Чистое подкапотное пространство</figcaption>
+            <img src="images/cockpit.jpg" alt="Приборная панель Škoda Octavia A7 RS" loading="lazy" decoding="async" />
+            <figcaption>Шкала спидометра до 280 км/ч</figcaption>
           </figure>
         </div>
       </div>
@@ -379,7 +335,7 @@
         <span class="logo-mark">RS</span>
         <span>Škoda Octavia A7 RS · 2017</span>
       </div>
-      <p class="footer-note">© <span id="year"></span> Частная продажа. Сайт носит информационный характер.</p>
+      <p class="footer-note">© <span id="year"></span> Частная продажа. Сайт носит информационный характер. <a href="CREDITS.md" class="footer-link">Авторы фото</a></p>
     </div>
   </footer>
 
